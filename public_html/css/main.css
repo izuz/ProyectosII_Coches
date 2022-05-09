@@ -1,3 +1,6 @@
+.disclaimer{
+    visibility: hidden;
+}
 /* index */
 #principal {
     background-image: url(../img/mustang.jpg);
@@ -16,14 +19,20 @@
     text-decoration: none;
 }
 
+#pie2{
+    text-align: center; 
+    text-decoration: none;
+    color: #003865;
+}
+
 #bajo li{
     text-align: center !important;
     display: inline !important;
-    color: white;
+    color: #003865;
 }
 
 #bajo li a{
-    color: white;
+    color: #003865;
     text-decoration: none;       
     padding-left:15px;
     padding-right:15px;
@@ -66,3 +75,29 @@
     margin: 0;
     font-size: 1.5em;
 }  
+
+
+/* Main */
+
+#main {
+    position: relative;
+    background: #f7f7f7;
+    padding: 4em 0 4em 0;
+
+}
+
+#main:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: 100% 100%;
+    z-index: 0;
+    opacity: 0.1;
+}
+
+#main .major h2 {
+    background: #f7f7f7;
+    color: #003865;
+}
