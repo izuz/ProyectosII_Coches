@@ -1,6 +1,68 @@
+/* index */
 #principal {
-    background-image: url(../img/bg.jpg);
+    background-image: url(../img/mustang.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+#pie{
+    /*background-color: white;*/
+    text-align: center; 
+    text-decoration: none;
+}
+
+#bajo li{
+    text-align: center !important;
+    display: inline !important;
+    color: white;
+}
+
+#bajo li a{
+    color: white;
+    text-decoration: none;       
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#bajo li a:hover{
+    text-decoration: underline;
+}
+
+#men{   
+    background-color: white !important;
+}
+
+#navbarTogglerDemo03 a{
+    color: #003865;
+    font-weight: bold;
+}
+
+
+#banner{
+    text-align: center;
+    position: relative;
+    padding: 8em 0;
+    margin: 4em 0 0 0;
+}
+
+#banner .header2 {
+    /* background-color:rgba(0,0,255,0.4); /*color de la caja*/
+    display: inline-block;
+    padding: 2.5em 5em;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#banner header p {
+    color: #003865;
+    padding: 0;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0;
+    font-size: 1.5em;
+}  
